@@ -5,7 +5,24 @@
   <title>Apotheek Westerbork</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <style>
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625 or 56.25%) */
+        overflow: hidden;
+    }
+    
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
@@ -34,7 +51,7 @@
                 <p>Uw huisarts en apotheek houden ieder een eigen dossier over u bij. Hierin staat informatie die belangrijk is voor uw behandeling. Uw huisarts legt vast wat uw klachten zijn en welke behandelingen u krijgt. Uw apotheker registreert welke medicijnen u krijgt en voor welke medicijnen u allergisch bent.
                 Deze gegevens kunnen worden uitgewisseld met het LSP (Landelijk Schakelpunt).
                 Voor een heldere uitleg over het LSP kunt u hieronder het filmpje bekijken van VZVZ.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ro78n39lp-c?si=SAsu9lhgkKSsyfMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="iframe-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ro78n39lp-c?si=SAsu9lhgkKSsyfMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                 <br><br><p>Wilt u dat zorgverleners uw medische gegevens elektronisch kunnen delen? Dan kunt u hiervoor mondeling toestemming geven als uw huisarts of apotheker daarom vraagt. Daarnaast kunt u het formulier uitprinten, invullen en inleveren bij uw zorgverlener. Ook kunt u uw toestemming online regelen op <a href= "https://www.volgjezorg.nl/">www.volgjezorg.nl.<span>&#8594;</span></a> Het kan zijn dat meerdere zorgaanbieders gegevens over u hebben die ze willen delen. Geeft u dan bij elke zorgaanbieder uw toestemming. U kunt uw toestemming altijd weer intrekken.
                 </p>
                 <p><a href="files/volgjezorg.pdf" class="link">Bekijk de Voorlichtingsfolder Volgjezorg<span>&#8594;</span></a></p>
