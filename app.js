@@ -71,6 +71,14 @@ app.get("/toest", (req, res) => {
   res.render("toest");
 });
 
+app.get("/iemand", (req, res) => {
+  res.render("iemand");
+});
+
+app.get("/eu", (req, res) => {
+  res.render("eu");
+});
+
 app.get("/contact", (req, res) => {
   res.render("contact");
 });
